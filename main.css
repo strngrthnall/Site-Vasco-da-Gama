@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header a, h2, h3, form button {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #dedede;
+}
+
+header, 
+footer {
+    padding: 16px 16px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 24px;
+}
+
+.container, .posts {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+    color: #e1e1e1;
+}
+
+.main-menu {
+    display: block;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.posts {
+    margin-top: 50px;
+}
+
+section {
+    margin: 10px;
+}
+
+.camisas-negras {
+    max-width: 50%;
+    margin-left: 5px;
+    margin-right: 32px;
+}
+
+#historia {
+    font-size: 32px;
+}
+
+#p-text,
+section h2,
+section h3 {
+    margin-bottom: 16px;
+}
+
+.sedes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sedes p{
+    margin-bottom: 10px;
+}
+
+.sedes article img {
+    width: 100%;
+    height: 60%;
+}
+
+.sedes article {
+    width: 40%;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #000000;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #343333;
+    color: #d8dcde;
+}
+
+input:focus, textarea:focus{
+    outline-color: #000000;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: left;
+}
+
+#redes {
+    margin-left: 35%;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
